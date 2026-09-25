@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-tint":"#aecfaf","on-secondary-fixed-variant":"#703800","surface":"#0e1512","on-tertiary":"#3c2f00","secondary-fixed-dim":"#ffb782","secondary":"#ffb782","surface-variant":"#2f3633","inverse-surface":"#dde4df","secondary-container":"#db7613","primary-fixed":"#c9ebca","inverse-primary":"#47654b","on-secondary-fixed":"#301400","tertiary":"#e9c349","surface-container-low":"#161d1a","error":"#ffb4ab","surface-container-high":"#242c28","background":"#0e1512","on-primary":"#1a3620","tertiary-container":"#cca730","error-container":"#93000a","on-error":"#690005","tertiary-fixed-dim":"#e9c349","on-secondary-container":"#452000","on-surface":"#dde4df","surface-container-lowest":"#09100d","inverse-on-surface":"#2b322f","primary-container":"#2d4a32","on-surface-variant":"#c2c8bf","outline":"#8c928a","on-error-container":"#ffdad6","on-primary-container":"#98b99a","on-tertiary-container":"#4f3e00","on-background":"#dde4df","on-tertiary-fixed-variant":"#574500","on-secondary":"#4f2500","surface-container":"#1a211e","primary-fixed-dim":"#aecfaf","on-primary-fixed":"#04210c","surface-dim":"#0e1512","on-primary-fixed-variant":"#304d35","on-tertiary-fixed":"#241a00","surface-container-highest":"#2f3633","primary":"#aecfaf","tertiary-fixed":"#ffe088","surface-bright":"#333b37","outline-variant":"#424842","secondary-fixed":"#ffdcc5"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-sm":"0.5rem","margin-mobile":"1.25rem","space-lg":"1.5rem","space-xl":"2.5rem","space-md":"1rem","gutter-sm":"1rem","gutter":"1.5rem","margin":"2.5rem","space-xs":"0.25rem"},"fontFamily":{"display-hero":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"display-hero-mobile":["Playfair Display"],"label-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"title-sm":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"headline-md":["Playfair Display"]},"fontSize":{"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"title-md":["18px",{"lineHeight":"26px","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.08em","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"600"}],"title-sm":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"600"}],"headline-md":["28px",{"lineHeight":"36px","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary selection:text-on-secondary-fixed"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.5)]"><div class="w-full bg-surface-container-highest/80 py-1.5 px-4 md:px-margin text-center border-b border-outline-variant/30 flex items-center justify-between gap-4"><div class="flex-1 text-center"><p class="font-label-sm text-label-sm text-secondary tracking-wider uppercase font-semibold">INFORMATIONAL &amp; EDUCATIONAL DEMO PORTAL • NOT AN OFFICIAL GOVERNMENT PORTAL • For official recruitment &amp; operational portals, visit <a class="underline text-primary hover:text-on-surface transition-colors font-bold" href="https://joinindianarmy.nic.in" rel="noreferrer" target="_blank">joinindianarmy.nic.in</a></p></div><div class="hidden lg:flex items-center gap-2"><span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">EN / हिन्दी</span><span class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">High Contrast</span></div></div><div class="h-24 max-w-[1200px] mx-auto px-4 md:px-margin flex items-center justify-between gap-4"><div class="flex items-center gap-space-md"><img alt="Indian Army Informational Crest Emblem" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XJzpE46CGB1urzFdnaIZhLrI7ToogZhtqWvbeFLcYOaW-qtuM363TndEi8OUDewKmVKeoyNvg3Ny6B3D0-A0XW9Z5WTXhRuFybfQ_WfT1wR11l2BGd_--aT4qEQeEpjZWe2ebGDR2Wm-ym7x1rBX-l6_IVZyIW1s6dKdUmJQMhnAaedHETy-TWtMUS8nejxWkeedlBiupxPlQc8zS9piANz6o6G84x-P7U29unpEIc4QqJR2uvmzhKFnpB"/><div class="flex flex-col"><div class="flex items-center gap-2"><span class="font-headline-sm text-headline-sm text-primary tracking-wide uppercase">INDIAN ARMY</span><span class="hidden sm:inline-block font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-primary-container text-on-primary-container border border-primary/20">Portal</span></div><span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase">Service • Courage • Commitment (Informational Portal)</span></div></div><nav class="hidden xl:flex items-center gap-4 h-full overflow-x-auto" data-active-classes="text-secondary border-b-2 border-secondary font-semibold"><a aria-current="page" class="transition-colors py-2 whitespace-nowrap text-secondary border-b-2 border-secondary font-semibold" data-path="home" href="#">Home</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="about" href="#">About</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="history" href="#">History</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="commands" href="#">Commands</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="training" href="#">Training</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="tech-modernization" href="#">Tech &amp; Modernization</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="humanitarian" href="#">Humanitarian</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="awards" href="#">Awards</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="careers" href="#">Careers</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="news" href="#">News</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="gallery" href="#">Gallery</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="faq" href="#">FAQ</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 whitespace-nowrap" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded bg-secondary-container text-on-secondary font-label-md text-label-md tracking-wider uppercase transition-colors hover:bg-secondary hover:text-on-secondary-fixed shadow-[0_4px_16px_rgba(219,118,19,0.2)]" href="#official-resources">Official Resources</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-24 bg-surface min-h-[calc(100vh-28rem)]"><div class="flex flex-col w-full">
+<!-- Tricolor Accent Ribbon (Subtle Sovereign Hairline) -->
+<div class="w-full h-1 bg-gradient-to-r from-secondary-container via-inverse-surface to-primary opacity-80"></div>
+<!-- SECTION 1: HERO SECTION (#home) -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest" id="home">
+<!-- Ambient Atmospheric Glows -->
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-primary/10 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="absolute top-1/3 -right-24 w-80 h-80 bg-secondary/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin pt-12 pb-16 lg:py-20 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<!-- Text Hero Content -->
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container border border-outline-variant/40">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">ESTABLISHED 1895 • GUARDIANS OF THE REPUBLIC OF INDIA</span>
+</div>
+<h1 class="font-display-hero text-headline-lg lg:text-display-hero text-on-surface tracking-tight leading-tight">
+            Indian Army — <span class="italic text-primary">Service, Courage</span> &amp; Commitment
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            An informational journey through the history, values, sacred traditions, humanitarian service, and evolving technological capabilities of the Indian Army.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="px-6 py-3.5 rounded bg-primary-container text-on-primary hover:bg-secondary-container hover:text-on-secondary transition-all duration-300 font-label-lg text-label-lg uppercase tracking-wider shadow-lg shadow-black/40 flex items-center gap-2" href="#about">
+<span>Explore The Army</span>
+<span class="material-symbols-outlined text-[18px]">south</span>
+</a>
+<a class="px-6 py-3.5 rounded bg-surface-container border border-tertiary/30 text-tertiary hover:bg-tertiary/10 transition-colors font-label-lg text-label-lg uppercase tracking-wider flex items-center gap-2" href="#history">
+<span class="material-symbols-outlined text-[18px]">history_edu</span>
+<span>History &amp; Heritage</span>
+</a>
+<a class="px-4 py-3.5 rounded bg-surface-container-high text-secondary hover:text-on-surface font-label-md text-label-md uppercase tracking-wider flex items-center gap-1.5 transition-colors" href="https://joinindianarmy.nic.in" rel="noreferrer" target="_blank">
+<span>Recruitment Portal</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+<!-- Official Discretion Micro-pill -->
+<div class="pt-2 flex items-center gap-2 text-on-surface-variant/80 font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified_user</span>
+<span>Public Education Archive • Non-classified reference portal for civic education</span>
+</div>
+</div>
+<!-- Visual Crest & Sentinel Motif Card -->
+<div class="lg:col-span-5 relative">
+<div class="relative p-6 sm:p-8 rounded-xl bg-gradient-to-b from-surface-container-high to-surface-container-low border border-outline-variant/30 shadow-2xl overflow-hidden">
+<div class="absolute -right-8 -bottom-8 w-44 h-44 bg-primary/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-center justify-between pb-6 border-b border-outline-variant/30">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[32px]">shield</span>
+<div>
+<div class="font-headline-sm text-headline-sm text-primary">Seva Paramo Dharma</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase">Service Before Self</div>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded bg-secondary/15 text-secondary font-label-sm text-label-sm uppercase tracking-wider border border-secondary/30">Valor Seal</span>
+</div>
+<!-- Emblem Hero Image -->
+<div class="my-6 relative rounded-lg overflow-hidden h-52 bg-surface-container-lowest">
+<img class="w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-105" data-alt="Majestic golden national emblem of India with the lion capital motif, rendered dramatically in dark olive background with volumetric lighting, golden brass details, military medals and ceremonial ceremonial ribbon accents in solemn atmospheric light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUjL2delHj9-SG2eBStPUZ4q09kqmZyRLfQadSdu5O3MuA_oN0MgSKsOAb8IGkPX1jsU8hqntg-yGvGiJHJfO-s5rkPFZ92MyYR5Kv3Nvn6HSm2NEm_57KTyymv018fBa-W2eXcja3pA0RaauF8FnNm9itFMy1sgxqgCuSVAFrv97VOHahP-0W0GwTPKpHFSJpMiTXaPfELDX91tH4uVP-CQe_3ooPVh5gLfCGhc8QcspYh17U9pi3Qw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-4 right-4 flex items-center justify-between text-on-surface">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Sovereignty • Integrity • Unity</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Est. 1895</span>
+</div>
+</div>
+<!-- Quick Operational Pillars -->
+<div class="grid grid-cols-3 gap-2 text-center pt-2">
+<div class="p-2.5 rounded bg-surface-container-lowest/80 border border-outline-variant/20">
+<div class="font-title-sm text-title-sm text-primary">Siachen</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">21,000+ ft</div>
+</div>
+<div class="p-2.5 rounded bg-surface-container-lowest/80 border border-outline-variant/20">
+<div class="font-title-sm text-title-sm text-secondary">Thar</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Plains &amp; Desert</div>
+</div>
+<div class="p-2.5 rounded bg-surface-container-lowest/80 border border-outline-variant/20">
+<div class="font-title-sm text-title-sm text-tertiary">Coastline</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">7,516 km</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Verified Institutional Stats Bar -->
+<div class="mt-14 grid grid-cols-2 lg:grid-cols-4 gap-4 p-4 lg:p-6 rounded-xl bg-surface-container border border-outline-variant/30">
+<div class="space-y-1 p-3">
+<div class="font-headline-md text-headline-md text-primary font-bold">125+</div>
+<div class="font-title-sm text-title-sm text-on-surface">Years of Service</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Guarding India through wars, insurgencies, and nation-building.</p>
+</div>
+<div class="space-y-1 p-3">
+<div class="font-headline-md text-headline-md text-secondary font-bold">7</div>
+<div class="font-title-sm text-title-sm text-on-surface">Operational Commands</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">6 Geographic war theatres + 1 specialized Training Command (ARTRAC).</p>
+</div>
+<div class="space-y-1 p-3">
+<div class="font-headline-md text-headline-md text-tertiary font-bold">64+</div>
+<div class="font-title-sm text-title-sm text-on-surface">Param Vir &amp; Ashoka Chakra</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Highest wartime &amp; peacetime gallantry citations in sovereign history.</p>
+</div>
+<div class="space-y-1 p-3">
+<div class="font-headline-md text-headline-md text-primary-fixed font-bold">100%</div>
+<div class="font-title-sm text-title-sm text-on-surface">Commitment to HADR</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Immediate first responder presence in floods, earthquakes, and civil rescue.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: INTRODUCTION & CORE ROLE (#about) -->
+<section class="w-full py-16 lg:py-24 bg-surface border-t border-outline-variant/20" id="about">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="flex items-center gap-3 mb-4">
+<span class="w-8 h-[2px] bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Sacred Mandate &amp; Sovereignty</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+<!-- Mandate narrative -->
+<div class="lg:col-span-7 space-y-6">
+<h2 class="font-headline-lg text-headline-lg text-on-surface leading-tight">
+            The Constitutional Shield of the World's Largest Democracy
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            The sacred constitutional mandate of the Indian Army is uncompromising: guarding the sovereign borders of the Union of India, deterring external aggression, defending against hostile incursions, and upholding perpetual peace. Operating from glaciated ridges in Siachen to the arid reaches of the Thar Desert, dense sub-tropical jungles in the Northeast, and fertile alluvial plains, Indian soldiers uphold unbroken vigil.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Beyond external defense, the Army acts as the ultimate guarantor of stability during national crises. When natural catastrophes strike—such as catastrophic floods, tsunamis, or mountain landslides—the Army executes massive Humanitarian Assistance and Disaster Relief (HADR) missions, standing shoulder-to-shoulder with civilian authorities.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+<div class="p-4 rounded-lg bg-surface-container-low border border-outline-variant/30 flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[26px] mt-0.5">landscape</span>
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface">All-Terrain Readiness</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Acclimatized warfare capability from -50°C glacial zones to +50°C desert terrain.</p>
+</div>
+</div>
+<div class="p-4 rounded-lg bg-surface-container-low border border-outline-variant/30 flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-[26px] mt-0.5">handshake</span>
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Apolitical Tradition</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Absolute loyalty to the Constitution of India and democratically elected governance.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Column 2: Motto & Operational Spirit Card -->
+<div class="lg:col-span-5">
+<div class="rounded-xl bg-surface-container p-6 sm:p-8 border border-outline-variant/30 relative">
+<div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-secondary via-primary to-tertiary"></div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-widest">Ethos &amp; Philosophy</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-2 mb-4">The Motto: "Seva Paramo Dharma"</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              "Service Before Self" signifies that the soldier's individual life, ease, and comfort always rank subordinate to the honour, welfare, and safety of the country and subordinate comrades.
+            </p>
+<div class="space-y-4">
+<div class="flex items-start gap-3 pb-3 border-b border-outline-variant/20">
+<span class="w-6 h-6 rounded-full bg-primary/20 text-primary flex items-center justify-center font-bold text-xs mt-0.5">1</span>
+<div>
+<strong class="font-title-sm text-title-sm text-on-surface">The Safety of the Nation</strong>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Comes first, always and every time.</p>
+</div>
+</div>
+<div class="flex items-start gap-3 pb-3 border-b border-outline-variant/20">
+<span class="w-6 h-6 rounded-full bg-primary/20 text-primary flex items-center justify-center font-bold text-xs mt-0.5">2</span>
+<div>
+<strong class="font-title-sm text-title-sm text-on-surface">The Honour of the Men You Command</strong>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Comes next, their welfare is sacred duty.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="w-6 h-6 rounded-full bg-primary/20 text-primary flex items-center justify-center font-bold text-xs mt-0.5">3</span>
+<div>
+<strong class="font-title-sm text-title-sm text-on-surface">Your Own Ease &amp; Safety</strong>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Comes last, always and every time. (The Chetwode Credo)</p>
+</div>
+</div>
+</div>
+<!-- Field Image Accent -->
+<div class="mt-6 rounded-lg overflow-hidden h-36 bg-surface-container-high relative">
+<img class="w-full h-full object-cover" data-alt="Indian Army mountain sentinels standing post on a snow-capped Himalayan pass at dusk, equipped with modern cold-weather protective gear, deep olive and white tactical garments, dramatic rim light, and vast mountain ridge background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3QRT7uQOWmIQLYwXI5O_TdwtRXNqaHk5zunrEcZmXgZgMIqwuR8jPCrwN_18wDYCdpqVxgKWZ_Zn4AyBo5DnHJ6dAe3A-6nruqOYD6099n3FBJ1nBNU0yl6-VUOy9j65Pl8V3Y5I9KxuTfJ4pCJ3D3awJYiHmCwPGIWE9ZhGZcHyOYJ8Mgba7mNweECY3iQ8JaltWPM2A0trAIkHe_3a7O5pf4h8M8slgHHVBdkiQc0bU7EhUhqboPg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-3 font-label-sm text-label-sm text-secondary">Himalayan Vigil • Unyielding Watch</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: CORE VALUES (#values) -->
+<section class="w-full py-16 lg:py-24 bg-surface-container-lowest border-t border-outline-variant/20" id="values">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container border border-outline-variant/30">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Foundational Pillars</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">The Six Core Institutional Values</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Timeless tenets ingrained into every recruit, cadet, and officer of the Indian Armed Forces.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Value 1: Duty -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-tertiary/60 transition-all duration-300 hover:-translate-y-1 shadow-md group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-4 group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-secondary text-[26px]">task_alt</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">01 • KARTAVYA</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 mb-2">Duty</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Unconditional devotion to national integrity and mission execution before personal comfort, personal ambition, or family safety.
+          </p>
+</div>
+<!-- Value 2: Honour -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-tertiary/60 transition-all duration-300 hover:-translate-y-1 shadow-md group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-4 group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-tertiary text-[26px]">military_tech</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-widest">02 • SAMMAN</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 mb-2">Honour</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            An unyielding code of ethical conduct, upholding regimental colours, personal integrity, and humane treatment even on active battlegrounds.
+          </p>
+</div>
+<!-- Value 3: Courage -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-tertiary/60 transition-all duration-300 hover:-translate-y-1 shadow-md group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-4 group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-secondary-container text-[26px]">local_fire_department</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary-container uppercase tracking-widest">03 • VEERTA</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 mb-2">Courage</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Both moral fortitude in command decisions and physical valor facing hazardous odds under hostile fire and extreme climatic trials.
+          </p>
+</div>
+<!-- Value 4: Discipline -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-tertiary/60 transition-all duration-300 hover:-translate-y-1 shadow-md group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-4 group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-primary text-[26px]">groups_3</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest">04 • ANUSHASAN</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 mb-2">Discipline</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Flawless mutual trust, unit cohesion, brotherhood beyond caste or creed, and immediate obedience to lawful command in crises.
+          </p>
+</div>
+<!-- Value 5: Commitment -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-tertiary/60 transition-all duration-300 hover:-translate-y-1 shadow-md group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-4 group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-secondary text-[26px]">loyalty</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">05 • NISHTHA</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 mb-2">Commitment</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            A sacred lifelong oath pledged to the Constitution of India, promising sovereignty defense at all personal costs till the last breath.
+          </p>
+</div>
+<!-- Value 6: Service -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-tertiary/60 transition-all duration-300 hover:-translate-y-1 shadow-md group">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-4 group-hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-primary-fixed text-[26px]">volunteer_activism</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-widest">06 • SEVA</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 mb-2">Service</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Selfless service to the republic, humanitarian relief to fellow citizens in distress, and international peace enforcement under the UN.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: HISTORY & HERITAGE INTERACTIVE TIMELINE (#history) -->
+<section class="w-full py-16 lg:py-24 bg-surface border-t border-outline-variant/20" id="history">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<div class="flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Sovereign Chronicles</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Timeline of Valor &amp; Milestones</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+            From 19th-century unification to high-altitude victories and 21st-century modern theaterisation.
+          </p>
+</div>
+<!-- Era Filter Tabs -->
+<div class="flex flex-wrap gap-2" id="timeline-filters">
+<button class="timeline-btn active px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider bg-primary-container text-on-primary" onclick="filterTimeline('all')">All Eras</button>
+<button class="timeline-btn px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterTimeline('pre-47')">Pre-1947</button>
+<button class="timeline-btn px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterTimeline('post-47')">1947–1971</button>
+<button class="timeline-btn px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterTimeline('siachen-kargil')">Siachen &amp; Kargil</button>
+<button class="timeline-btn px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterTimeline('modern')">Modern Era</button>
+</div>
+</div>
+<!-- Timeline Wrapper -->
+<div class="relative pl-6 md:pl-10 space-y-10 before:content-[''] before:absolute before:left-2 md:before:left-4 before:top-2 before:bottom-2 before:w-[2px] before:bg-outline-variant/40" id="timeline-container">
+<!-- Milestone 1 -->
+<div class="timeline-item relative group" data-era="pre-47">
+<div class="absolute -left-6 md:-left-10 top-1.5 w-4 h-4 rounded-full bg-secondary border-4 border-surface group-hover:scale-125 transition-transform"></div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-secondary/40 transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-secondary/15 text-secondary font-label-sm text-label-sm font-bold uppercase">1895</span>
+<span class="text-xs text-on-surface-variant">Genesis &amp; Unification</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Unification of Presidency Armies</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+              The Bengal, Bombay, and Madras Presidency forces were integrated into a unified institutional Indian Army on 1 April 1895, laying the foundations for modern military staff structures and regimental depots.
+            </p>
+</div>
+</div>
+<!-- Milestone 2 -->
+<div class="timeline-item relative group" data-era="post-47">
+<div class="absolute -left-6 md:-left-10 top-1.5 w-4 h-4 rounded-full bg-primary border-4 border-surface group-hover:scale-125 transition-transform"></div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/40 transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold uppercase">1947–1948</span>
+<span class="text-xs text-on-surface-variant">Post-Independence Defense</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Defense of Jammu &amp; Kashmir &amp; National Integration</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+              Following the Instrument of Accession signed by Maharaja Hari Singh, Indian Army air-landed at Srinagar airfield in extreme circumstances, repelling raiders and safeguarding the Kashmir Valley and Ladakh frontiers.
+            </p>
+</div>
+</div>
+<!-- Milestone 3 -->
+<div class="timeline-item relative group" data-era="post-47">
+<div class="absolute -left-6 md:-left-10 top-1.5 w-4 h-4 rounded-full bg-tertiary border-4 border-surface group-hover:scale-125 transition-transform"></div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-tertiary/40 transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-tertiary/20 text-tertiary font-label-sm text-label-sm font-bold uppercase">1965</span>
+<span class="text-xs text-on-surface-variant">Indo-Pak War</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Battle of Asal Uttar &amp; Western Front Resilience</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+              One of the largest tank battles in post-WWII history witnessed Indian forces, led by heroes like CQMH Abdul Hamid (PVC), halting heavily armed Patton tanks and establishing territorial dominance.
+            </p>
+</div>
+</div>
+<!-- Milestone 4 -->
+<div class="timeline-item relative group" data-era="post-47">
+<div class="absolute -left-6 md:-left-10 top-1.5 w-4 h-4 rounded-full bg-secondary-container border-4 border-surface group-hover:scale-125 transition-transform"></div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-secondary-container/40 transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-secondary-container/20 text-secondary-container font-label-sm text-label-sm font-bold uppercase">1971</span>
+<span class="text-xs text-on-surface-variant">Historic Triumph</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">The Liberation War &amp; Dhaka Instrument of Surrender</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+              A lightning 13-day joint campaign led to the surrender of over 93,000 Pakistani personnel and the birth of independent Bangladesh. Indian leadership earned immortal reverence under Field Marshal Sam Manekshaw.
+            </p>
+</div>
+</div>
+<!-- Milestone 5 -->
+<div class="timeline-item relative group" data-era="siachen-kargil">
+<div class="absolute -left-6 md:-left-10 top-1.5 w-4 h-4 rounded-full bg-primary border-4 border-surface group-hover:scale-125 transition-transform"></div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/40 transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-bold uppercase">1984</span>
+<span class="text-xs text-on-surface-variant">High Altitude Dominance</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Operation Meghdoot — Securing the Siachen Glacier</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+              Indian troops scaled the Saltoro Ridge under sub-zero blizzards, securing strategic dominance on the world's highest active battlefield at altitudes up to 22,000 feet, which remains fortified to this day.
+            </p>
+</div>
+</div>
+<!-- Milestone 6 -->
+<div class="timeline-item relative group" data-era="siachen-kargil">
+<div class="absolute -left-6 md:-left-10 top-1.5 w-4 h-4 rounded-full bg-secondary border-4 border-surface group-hover:scale-125 transition-transform"></div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-secondary/40 transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-secondary/20 text-secondary font-label-sm text-label-sm font-bold uppercase">1999</span>
+<span class="text-xs text-on-surface-variant">Kargil Conflict</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Operation Vijay — The Summit Assaults</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+              Battling at heights exceeding 18,000 feet against fortified intruder positions, Indian Army recaptured Tiger Hill, Tololing, and Point 4875 through heroic uphill infantry charges supported by Bofors artillery.
+            </p>
+</div>
+</div>
+<!-- Milestone 7 -->
+<div class="timeline-item relative group" data-era="modern">
+<div class="absolute -left-6 md:-left-10 top-1.5 w-4 h-4 rounded-full bg-tertiary border-4 border-surface group-hover:scale-125 transition-transform"></div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-tertiary/40 transition-colors">
+<div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+<span class="px-2.5 py-0.5 rounded bg-tertiary/20 text-tertiary font-label-sm text-label-sm font-bold uppercase">2020s &amp; Beyond</span>
+<span class="text-xs text-on-surface-variant">Modern Transformation</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Theaterisation, Atmanirbhar Defense &amp; Future Warfare</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+              Reorganizing into unified Integrated Theatre Commands, rapid induction of indigenous weapon systems (ATAGS, K-9 Vajra, swarm UAVs), and high-altitude logistics modernization along northern frontiers.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: ORGANIZATIONAL OVERVIEW & BLUEPRINT (#organization) -->
+<section class="w-full py-16 lg:py-24 bg-surface-container-lowest border-t border-outline-variant/20" id="organization">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Public Institutional Architecture</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Organizational Overview</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          A high-level blueprint of the arms, combat support, and services of the Indian Army based purely on publicly available institutional gazettes.
+        </p>
+</div>
+<!-- Public Architecture Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Fighting Arms -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-secondary text-[28px]">swords</span>
+<h3 class="font-title-md text-title-md text-on-surface">Fighting Arms</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            The direct combat components responsible for closing with and defeating hostile forces in battle.
+          </p>
+<ul class="space-y-2 text-sm text-on-surface">
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Infantry</span>
+<span class="text-xs text-primary font-semibold">Queen of Battle</span>
+</li>
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Armoured Corps</span>
+<span class="text-xs text-secondary font-semibold">Main Battle Tanks</span>
+</li>
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Mechanised Infantry</span>
+<span class="text-xs text-tertiary font-semibold">Rapid Mobility</span>
+</li>
+</ul>
+</div>
+<!-- Combat Support Arms -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary text-[28px]">radar</span>
+<h3 class="font-title-md text-title-md text-on-surface">Combat Support Arms</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            Specialized arms providing fire support, air defense, mobility, and high-assurance military communications.
+          </p>
+<ul class="space-y-2 text-sm text-on-surface">
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Regiment of Artillery</span>
+<span class="text-xs text-primary font-semibold">Long-range Firepower</span>
+</li>
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Army Air Defence (AAD)</span>
+<span class="text-xs text-secondary font-semibold">Airspace Protection</span>
+</li>
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Corps of Engineers</span>
+<span class="text-xs text-tertiary font-semibold">Bridging &amp; Sapping</span>
+</li>
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Corps of Signals</span>
+<span class="text-xs text-primary-fixed font-semibold">C4ISR &amp; Cyber Link</span>
+</li>
+</ul>
+</div>
+<!-- Services -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-tertiary text-[28px]">local_shipping</span>
+<h3 class="font-title-md text-title-md text-on-surface">Services</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+            The logistical, medical, and technical foundation ensuring relentless endurance and battlefield readiness.
+          </p>
+<ul class="space-y-2 text-sm text-on-surface">
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Army Service Corps (ASC)</span>
+<span class="text-xs text-primary font-semibold">Rations &amp; Fuel</span>
+</li>
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Army Medical Corps (AMC)</span>
+<span class="text-xs text-secondary font-semibold">Healthcare &amp; Trauma</span>
+</li>
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Corps of EME</span>
+<span class="text-xs text-tertiary font-semibold">Mechanical Equipment</span>
+</li>
+<li class="p-2 rounded bg-surface-container-high flex items-center justify-between">
+<span>Army Ordnance Corps (AOC)</span>
+<span class="text-xs text-primary-fixed font-semibold">Munitions &amp; Kit</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Compliance Disclaimer -->
+<div class="mt-8 p-4 rounded bg-surface-container-low border border-outline-variant/30 flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">info</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+<strong class="text-on-surface">Security &amp; Non-Sensitive Compliance:</strong> Only high-level publicly known organizational designations are presented. No operational deployments, confidential tactical tables of organization and equipment (TO&amp;E), or restricted locations are featured on this civic portal.
+        </p>
+</div>
+</div>
+</section>
+<!-- SECTION 6: COMMANDS SECTION (#commands) -->
+<section class="w-full py-16 lg:py-24 bg-surface border-t border-outline-variant/20" id="commands">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<div class="flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Operational Theatres</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">The 7 Indian Army Commands</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+            Six territorial operational commands defending specific borders plus the Army Training Command (ARTRAC) formulating doctrine.
+          </p>
+</div>
+<div class="p-2 px-4 rounded bg-surface-container border border-outline-variant/30 text-xs text-on-surface-variant flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">map</span>
+<span>Click any command card for operational scope</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Northern Command -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/50 transition-all duration-300">
+<div class="flex items-center justify-between mb-4">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-semibold uppercase">Operational</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">HQ: Udhampur, J&amp;K</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Northern Command</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-4">
+            The sentinel of Jammu, Kashmir, and Ladakh. Entrusted with safeguarding the Line of Control (LoC), Line of Actual Control (LAC), and glaciated Siachen ridgelines.
+          </p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">ac_unit</span>
+<span>Extreme High Altitude Warfare</span>
+</div>
+</div>
+<!-- Western Command -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/50 transition-all duration-300">
+<div class="flex items-center justify-between mb-4">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-semibold uppercase">Operational</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">HQ: Chandimandir, Haryana</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Western Command</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-4">
+            The vanguard guarding Punjab, parts of Jammu, and Haryana plains. Historically the backbone of major armor and mechanized maneuvers in 1965 and 1971.
+          </p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">local_police</span>
+<span>Plains &amp; Canal Crossings</span>
+</div>
+</div>
+<!-- Eastern Command -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/50 transition-all duration-300">
+<div class="flex items-center justify-between mb-4">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-semibold uppercase">Operational</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">HQ: Fort William, Kolkata</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Eastern Command</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-4">
+            Defending the northeastern frontier, Sikkim, Arunachal Pradesh, and borders with neighboring countries across rugged mountain and jungle terrain.
+          </p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">forest</span>
+<span>Jungle Warfare &amp; Mountain Passes</span>
+</div>
+</div>
+<!-- Southern Command -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/50 transition-all duration-300">
+<div class="flex items-center justify-between mb-4">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-semibold uppercase">Operational</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">HQ: Pune, Maharashtra</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Southern Command</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-4">
+            The oldest command, covering Rajasthan desert zones, Gujarat, and peninsular India. Pioneers in combined desert strikes and joint amphibious defense exercises.
+          </p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">waves</span>
+<span>Desert &amp; Peninsular Coastal Defense</span>
+</div>
+</div>
+<!-- Central Command -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/50 transition-all duration-300">
+<div class="flex items-center justify-between mb-4">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-semibold uppercase">Operational</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">HQ: Lucknow, UP</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Central Command</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-4">
+            Responsible for the Uttarakhand and Central sector borders while acting as the strategic logistical hinge and mobilization conduit for the Indian Army.
+          </p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">hub</span>
+<span>Strategic Hinge &amp; High Uttarakhand Passes</span>
+</div>
+</div>
+<!-- South Western Command -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/50 transition-all duration-300">
+<div class="flex items-center justify-between mb-4">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-semibold uppercase">Operational</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">HQ: Jaipur, Rajasthan</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">South Western Command</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-4">
+            Known as the 'Sapta Shakti' command, created for rapid mechanized armor thrusts, network-centric desert warfare, and aggressive air-land joint integration.
+          </p>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+<span>Strike Armoured Mechanization</span>
+</div>
+</div>
+<!-- ARTRAC -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-tertiary/50 transition-all duration-300 md:col-span-2 lg:col-span-3">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-0.5 rounded bg-tertiary/20 text-tertiary font-label-sm text-label-sm font-bold uppercase">Training &amp; Doctrine</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Army Training Command (ARTRAC)</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">HQ: Shimla, Himachal Pradesh</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            ARTRAC is the intellectual powerhouse of the Army, conceptualizing combat doctrines, evaluating next-generation joint battlefield concepts, and overseeing educational curricula across more than 30 premier category 'A' military training establishments.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: TRAINING & ACADEMIES (#training) -->
+<section class="w-full py-16 lg:py-24 bg-surface-container-lowest border-t border-outline-variant/20" id="training">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Crucibles of Leadership</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Military Training Establishments</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Where character, intellectual rigor, physical endurance, and supreme leadership are forged.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- NDA -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="h-48 bg-surface-container-high relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="National Defence Academy cadets in pristine parade uniforms marching with rifles in synchrony on the drill square against the majestic Sudan Block at Khadakwasla, golden hour lighting with crisp shadows and sovereign flags." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe7NsyVZ1H8TvOqdOm2OcT8-GlN2r9KY8MgAKeZbqZiKJ6K-IzkWXEJhZ6LbSGUq3ZT_CmdO5KkLMs2d0JtoyqHU3nmn4nfhMdmNOMHsjrGSrGrVDfvuSl3iyRPVDpq6wzYMANZiR3Y9KPB3Ew7v8FUPeqLvyB27XrdicXm-GO5SV2DfEbkpCXUdHrps8fyidP6Eu4byQJox22761sQnED3-gwoVIo79zhzZLV6ld9NmYX9KPpOv4PAQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-surface-container-lowest/80 text-secondary font-label-sm text-label-sm uppercase">Joint Services Academy</span>
+</div>
+<div class="p-6 space-y-3">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">National Defence Academy (NDA)</h3>
+<p class="font-label-sm text-label-sm text-primary">Khadakwasla, Pune, Maharashtra</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              The world's first tri-service academy where cadets of the Army, Navy, and Air Force train together before heading to their pre-commissioning academies, forging unbreakable inter-service camaraderie.
+            </p>
+</div>
+</div>
+<!-- IMA -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="h-48 bg-surface-container-high relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Gentleman Cadets at the Indian Military Academy in Dehradun taking the final step on the Chetwode Hall parade steps during the Passing Out Parade, flower petals falling, swords held high, dignified ceremonial atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3Ud6uKo89ffoo4B_90fvsB6isZ_L9DMhtuPEiNLB4_PT-69uUlzZL7Xg6bF1gs4e5P8v9I0Z3HDpYPo6gQSB2KhhucAhiJsRFC5Xj92ZFBwHtsX5SpiRBlFs7ghUKGckWVIZtV3wUu8li3xeRzFeIkoKv-PoNxEsp6UxHoffreVwbwnfW4J83fKl-sXZtCQysIV-SEPX3lO6sxtb1zyLNataIs_uHbIwJkX977EnuVx7C9MBavoZPOw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-surface-container-lowest/80 text-tertiary font-label-sm text-label-sm uppercase">Cradle of Officers</span>
+</div>
+<div class="p-6 space-y-3">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Indian Military Academy (IMA)</h3>
+<p class="font-label-sm text-label-sm text-primary">Dehradun, Uttarakhand</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Established in 1932, the IMA has produced over 60,000 officers renowned for unmatched valor. Home to the revered Chetwode Credo, instilling the primacy of national welfare above personal comfort.
+            </p>
+</div>
+</div>
+<!-- OTA -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="h-48 bg-surface-container-high relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Cadets at Officers Training Academy Chennai in olive combat fatigues executing an obstacle course crawl under tactical training wires with smoke and field obstacles, determined expressions in warm atmospheric sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDL8M4kXF7MzRtqCZTmtLac3-I0VLlSE_lxwxrMf1u_Ihxzdm6Ps42Rq48VmcBl-ZQYsPIa4y1Hu-TtQ6flIrUAd7cVpPDC1TLqb_IahJkGOGEuxFU9tdDfqifK6huGsPOADMr9ohecqS-s1KbNYnfvLcyX0H1YuGT-7eaik8osdeKWveyMF3gpduf2dd8yIoWoVmCpp-61LUTD0hVdCfZ_M0vr4ECiLRqwp-bZzYNpm88YHs7l0haxsQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-surface-container-lowest/80 text-secondary font-label-sm text-label-sm uppercase">Short Service &amp; Women Cadres</span>
+</div>
+<div class="p-6 space-y-3">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Officers Training Academy (OTA)</h3>
+<p class="font-label-sm text-label-sm text-primary">Chennai &amp; Gaya</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Premier institution training gentlemen and lady cadets for Short Service and Technical entries. OTA has been the pioneer in training women officers who now command active operational units.
+            </p>
+</div>
+</div>
+<!-- Specialist Warfare Schools -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/30 overflow-hidden flex flex-col justify-between">
+<div class="h-48 bg-surface-container-high relative overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Indian Army commando at High Altitude Warfare School Gulmarg standing in white camouflage on steep snowy mountain slopes with specialized ice axes and modern mountaineering combat equipment, deep blue winter sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDv1Guo8gv5cOCMLF5J0_X8aMEwgNne0mjOKeQsZem-xNdO04Jvbhk-xw1BKtpGYUWdTjbpeB4rxDxfOWAIQKRCrb8mcGIZ-uO--zPtmUobsyHo7sknLDs48-ZWiOcKGY-Etl0uTVIm1H9rxnQO4Mv3ynP5ApWgvtf5ZwD3XZ6DpPNXT8ijwSdxwQ2WV7ZJFeuG1iggzaJUDMpvL0HP_OqLe-mvIeIjfcflX13HKCThJ3nB-Lc3ZIkH6g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 px-2 py-0.5 rounded bg-surface-container-lowest/80 text-primary-fixed font-label-sm text-label-sm uppercase">Specialist Warfare Schools</span>
+</div>
+<div class="p-6 space-y-3">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">HAWS &amp; CIJWS</h3>
+<p class="font-label-sm text-label-sm text-primary">Gulmarg (J&amp;K) &amp; Vairengte (Mizoram)</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              HAWS is the world leader in glacial and mountain combat instruction, while CIJWS is globally acclaimed for counter-insurgency and jungle warfare, routinely training allied forces from across the globe.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 8: TECHNOLOGY & MODERNIZATION (#technology) -->
+<section class="w-full py-16 lg:py-24 bg-surface border-t border-outline-variant/20" id="technology">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Self-Reliance in Defense</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-12">
+<div class="lg:col-span-7">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Technology &amp; Modernization (Atmanirbhar Bharat)</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3 leading-relaxed">
+            The Indian Army is undergoing unprecedented transformation into a networked, technologically dominant, and self-reliant fighting force—incorporating indigenous artillery, swarm UAVs, quantum communications, and artificial intelligence into decision cycles.
+          </p>
+</div>
+<div class="lg:col-span-5 flex lg:justify-end">
+<div class="inline-flex items-center gap-2 p-3 rounded-lg bg-surface-container border border-outline-variant/30 text-sm text-primary">
+<span class="material-symbols-outlined text-[20px]">precision_manufacturing</span>
+<span>Make In India: Over 80% Defense Capital Budget Indigenous</span>
+</div>
+</div>
+</div>
+<!-- Modernization Pillars Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/40 transition-colors">
+<span class="material-symbols-outlined text-secondary text-[32px] mb-3">satellite_alt</span>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Network-Centric Warfare &amp; C4ISR</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Deployment of indigenous Software Defined Radios (SDR), BMS (Battlefield Management Systems), and secure satellite uplinks guaranteeing resilient real-time situational awareness across all echelons.
+          </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/40 transition-colors">
+<span class="material-symbols-outlined text-tertiary text-[32px] mb-3">flight</span>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Drone Swarms &amp; Counter-UAS</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Induction of autonomous AI-enabled drone swarms for reconnaissance and precision kinetic strikes, paired with soft-kill RF jammers and laser counter-drone systems deployed along sensitive borders.
+          </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/40 transition-colors">
+<span class="material-symbols-outlined text-primary text-[32px] mb-3">security</span>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Indigenous Armour &amp; Artillery</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            ATAGS 155mm/52-calibre artillery, Dhanush howitzers, K9-Vajra-T self-propelled guns, and the Arjun MBT Mk-1A, revolutionizing fire support and mechanized dominance across plains and high passes.
+          </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/40 transition-colors">
+<span class="material-symbols-outlined text-secondary text-[32px] mb-3">navigation</span>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Autonomous Mobility &amp; High Altitude Logistics</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Unmanned electric utility buggies, heavy-payload high-altitude logistics drones, and specialized all-terrain vehicles (ATVs) replacing traditional pack-animal supply chains on extreme glacial ridgelines.
+          </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/40 transition-colors">
+<span class="material-symbols-outlined text-tertiary text-[32px] mb-3">vpn_key</span>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Cyber Defense &amp; Quantum Cryptography</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Collaboration with DRDO, academic institutes, and defense startups to field Quantum Key Distribution (QKD) links resistant to foreign signal interception and advanced cyber offensive vectors.
+          </p>
+</div>
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 hover:border-primary/40 transition-colors">
+<span class="material-symbols-outlined text-primary-fixed text-[32px] mb-3">psychology</span>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">AI-Driven Predictive Maintenance</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Machine learning algorithms actively monitoring equipment health, fleet readiness of armored tanks, helicopters, and radar complexes, drastically reducing depot turnaround times.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 9: HADR & HUMANITARIAN OPERATIONS (#humanitarian) -->
+<section class="w-full py-16 lg:py-24 bg-surface-container-lowest border-t border-outline-variant/20" id="humanitarian">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<div class="flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Aid to Civil Authorities</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Humanitarian Relief &amp; Global Peacekeeping</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+            In times of catastrophe, the Indian Army is the first to arrive and the last to leave.
+          </p>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- HADR Featured Card -->
+<div class="lg:col-span-7 space-y-6">
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 space-y-4">
+<span class="px-2.5 py-0.5 rounded bg-primary/20 text-primary font-label-sm text-label-sm font-semibold uppercase">Operation Megh Rahat &amp; Flood Rescues</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Saving Lives in Extreme Deluges</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              From the Kashmir valley floods to severe coastal cyclones and Assam deluge events, Indian Army columns deploy inflatable boats, assault engineers, portable bridges, and mobile surgical units within hours of civil notification.
+            </p>
+<div class="grid grid-cols-2 gap-4 pt-2">
+<div class="p-3 rounded bg-surface-container-high">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">200,000+</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1">Civilians safely evacuated in major relief ops</p>
+</div>
+<div class="p-3 rounded bg-surface-container-high">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">1,000+ Tons</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1">Medical supplies and rations airdropped</p>
+</div>
+</div>
+</div>
+<!-- Mountain Bridge Construction -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 flex items-start gap-4">
+<span class="material-symbols-outlined text-secondary text-[32px] mt-1">construction</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Rapid Pontoon &amp; Bailey Bridges</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                When sudden flash floods wash away mountain links in Himachal Pradesh, Uttarakhand, and Sikkim, the Corps of Engineers restores vital connectivity in record single-day timelines.
+              </p>
+</div>
+</div>
+</div>
+<!-- UN Peacekeeping Card -->
+<div class="lg:col-span-5">
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 space-y-5 h-full flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-0.5 rounded bg-tertiary/20 text-tertiary font-label-sm text-label-sm font-semibold uppercase">United Nations Missions</span>
+<span class="material-symbols-outlined text-tertiary">public</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Pillars of UN Blue Helmets</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                India is historically one of the largest cumulative troop-contributing nations to United Nations peacekeeping operations, having deployed over 260,000 peacekeepers in 53 missions worldwide.
+              </p>
+<ul class="mt-4 space-y-2 text-sm text-on-surface">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Historic missions in Congo, Golan Heights, Lebanon (UNIFIL), and South Sudan (UNMISS).</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Pioneered all-women Formed Police &amp; Peacekeeping units deployed to Liberia and Abyei.</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">check_circle</span>
+<span>Supreme sacrifice: 175+ Indian soldiers have laid down their lives in the cause of world peace.</span>
+</li>
+</ul>
+</div>
+<div class="p-4 rounded-lg bg-surface-container-high border border-outline-variant/20">
+<span class="font-label-sm text-label-sm text-primary uppercase">Global Diplomatic Esteem</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Recognized universally for professional discipline, non-partisanship, and deep respect for local sovereign populations.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 10: AWARDS & GALLANTRY HONOURS (#awards) -->
+<section class="w-full py-16 lg:py-24 bg-surface border-t border-outline-variant/20" id="awards">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Supreme Valour</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Gallantry Honours &amp; Decorations</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Decorations awarded by the President of India for conspicuous bravery in the presence of the enemy and in peacetime operations.
+        </p>
+</div>
+<!-- Wartime vs Peacetime Tabs -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Wartime Gallantry -->
+<div class="p-6 sm:p-8 rounded-xl bg-surface-container border border-outline-variant/30 space-y-6">
+<div class="flex items-center justify-between pb-4 border-b border-outline-variant/20">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-secondary">Wartime Gallantry Awards</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Awarded for valor in the face of the enemy</p>
+</div>
+<span class="material-symbols-outlined text-secondary text-[32px]">military_tech</span>
+</div>
+<div class="space-y-4">
+<!-- PVC -->
+<div class="p-4 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-colors cursor-pointer" onclick="openAwardModal('pvc')">
+<div class="flex items-center justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Param Vir Chakra (PVC)</h4>
+<p class="font-body-sm text-body-sm text-secondary">India's Highest Wartime Decoration</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">arrow_forward</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Conferred for the most conspicuous bravery or daring pre-eminent act of self-sacrifice. Awarded 21 times in sovereign history.
+              </p>
+</div>
+<!-- MVC -->
+<div class="p-4 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-colors cursor-pointer" onclick="openAwardModal('mvc')">
+<div class="flex items-center justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Maha Vir Chakra (MVC)</h4>
+<p class="font-body-sm text-body-sm text-primary">Second Highest Wartime Decoration</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">arrow_forward</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Awarded for acts of conspicuous gallantry in the presence of the enemy whether on land, at sea or in the air.
+              </p>
+</div>
+<!-- VrC -->
+<div class="p-4 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-colors cursor-pointer" onclick="openAwardModal('vrc')">
+<div class="flex items-center justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Vir Chakra (VrC)</h4>
+<p class="font-body-sm text-body-sm text-tertiary">Third in Wartime Hierarchy</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">arrow_forward</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Recognizes prominent battlefield valor in active conflicts across frontline theaters.
+              </p>
+</div>
+</div>
+</div>
+<!-- Peacetime Gallantry -->
+<div class="p-6 sm:p-8 rounded-xl bg-surface-container border border-outline-variant/30 space-y-6">
+<div class="flex items-center justify-between pb-4 border-b border-outline-variant/20">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Peacetime Gallantry Awards</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Awarded for valor other than in the face of the enemy</p>
+</div>
+<span class="material-symbols-outlined text-primary text-[32px]">workspace_premium</span>
+</div>
+<div class="space-y-4">
+<!-- AC -->
+<div class="p-4 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-colors cursor-pointer" onclick="openAwardModal('ac')">
+<div class="flex items-center justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Ashoka Chakra (AC)</h4>
+<p class="font-body-sm text-body-sm text-primary">Highest Peacetime Equivalent of PVC</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">arrow_forward</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Conferred for the most conspicuous bravery, daring or pre-eminent valor during counter-terrorism, internal security or peacetime peril.
+              </p>
+</div>
+<!-- KC -->
+<div class="p-4 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-colors cursor-pointer" onclick="openAwardModal('kc')">
+<div class="flex items-center justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Kirti Chakra (KC)</h4>
+<p class="font-body-sm text-body-sm text-secondary">Second Highest Peacetime Decoration</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">arrow_forward</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Recognizes gallantry other than in the face of the enemy; equivalent to the Maha Vir Chakra.
+              </p>
+</div>
+<!-- SC -->
+<div class="p-4 rounded-lg bg-surface-container-high hover:bg-surface-container-highest transition-colors cursor-pointer" onclick="openAwardModal('sc')">
+<div class="flex items-center justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface">Shaurya Chakra (SC)</h4>
+<p class="font-body-sm text-body-sm text-tertiary">Third in Peacetime Hierarchy</p>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">arrow_forward</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                Conferred for acts of courage and daring against counter-insurgent threats and high-risk operational rescues.
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- National War Memorial Tribute Banner -->
+<div class="mt-10 p-6 rounded-xl bg-gradient-to-r from-surface-container to-surface-container-high border border-outline-variant/30 flex flex-col sm:flex-row items-center justify-between gap-6">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-secondary text-[40px]">flare</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">The National War Memorial, New Delhi</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">The eternal Amar Jawan flame enshrines the names of 26,000+ fallen martyrs who made the supreme sacrifice.</p>
+</div>
+</div>
+<a class="whitespace-nowrap px-4 py-2.5 rounded bg-primary-container text-on-primary hover:bg-secondary-container hover:text-on-secondary transition-colors font-label-md text-label-md uppercase tracking-wider flex items-center gap-2" href="https://nationalwarmemorial.gov.in" rel="noreferrer" target="_blank">
+<span>Virtual Homage</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Interactive Award Details Modal (Vanilla JS Controlled) -->
+<div class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-4" id="award-modal">
+<div class="max-w-lg w-full rounded-xl bg-surface-container-high border border-outline-variant/40 p-6 space-y-4 shadow-2xl relative">
+<div class="flex items-center justify-between pb-3 border-b border-outline-variant/30">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary" id="modal-icon">military_tech</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface" id="modal-title">Award Title</h3>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface" onclick="closeAwardModal()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant" id="modal-desc">Description text...</p>
+<div class="p-3 rounded bg-surface-container border border-outline-variant/20 space-y-1">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold">Award Criteria &amp; History</span>
+<p class="font-body-sm text-body-sm text-on-surface" id="modal-criteria">Criteria text...</p>
+</div>
+<div class="pt-2 flex justify-end">
+<button class="px-4 py-2 rounded bg-surface-variant text-on-surface font-label-md text-label-md uppercase tracking-wider" onclick="closeAwardModal()">Close</button>
+</div>
+</div>
+</div>
+<!-- SECTION 11: CAREERS & RECRUITMENT PATHWAYS (#careers) -->
+<section class="w-full py-16 lg:py-24 bg-surface-container-lowest border-t border-outline-variant/20" id="careers">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Wear The Uniform</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Career &amp; Selection Pathways</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Explore legitimate and official routes to commission as an officer or enlistment as a soldier in the Indian Army.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+<!-- Path 1 -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-3">
+<span class="material-symbols-outlined text-primary text-[32px]">school</span>
+<h3 class="font-title-md text-title-md text-on-surface">NDA &amp; CDS Entry</h3>
+<p class="font-label-sm text-label-sm text-secondary">Permanent Commission (PC)</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Conducted by the Union Public Service Commission (UPSC) followed by 5-day Service Selection Board (SSB) interviews and thorough medical boards.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-outline-variant/20 text-xs text-on-surface-variant">
+            Eligibility: 10+2 (NDA) or Graduate Degree (CDS)
+          </div>
+</div>
+<!-- Path 2 -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-3">
+<span class="material-symbols-outlined text-secondary text-[32px]">engineering</span>
+<h3 class="font-title-md text-title-md text-on-surface">Technical Entries (TGC / TES)</h3>
+<p class="font-label-sm text-label-sm text-secondary">Engineering Graduates &amp; 10+2</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Direct SSB interview calls based on engineering cut-offs or JEE Mains scores without written entrance tests for technical branches.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-outline-variant/20 text-xs text-on-surface-variant">
+            Streams: B.Tech / BE in Mechanical, CS, Civil, ECE
+          </div>
+</div>
+<!-- Path 3 -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-3">
+<span class="material-symbols-outlined text-tertiary text-[32px]">female</span>
+<h3 class="font-title-md text-title-md text-on-surface">Women in Armed Forces</h3>
+<p class="font-label-sm text-label-sm text-secondary">Commission &amp; Command Roles</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Women serve with distinction with Permanent Commission in Engineers, Signals, Army Aviation, Intelligence, EME, and military legal &amp; educational services.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-outline-variant/20 text-xs text-on-surface-variant">
+            Entries: NDA, CDS, OTA Non-Tech &amp; Tech, NCC Special
+          </div>
+</div>
+<!-- Path 4 -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-3">
+<span class="material-symbols-outlined text-primary-fixed text-[32px]">badge</span>
+<h3 class="font-title-md text-title-md text-on-surface">Agnipath &amp; Soldier Enlistment</h3>
+<p class="font-label-sm text-label-sm text-secondary">General Duty, Technical, Tradesmen</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Agniveer recruitment rallies organized across India with Common Entrance Exam (CEE), 1.6 km run physical endurance trials, and merit rosters.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-outline-variant/20 text-xs text-on-surface-variant">
+            Conducted by: Zonal Recruiting Offices (ZROs)
+          </div>
+</div>
+</div>
+<!-- CRITICAL FRAUD & AUTHORIZED RECRUITMENT WARNING -->
+<div class="p-6 sm:p-8 rounded-xl bg-surface-container-high border-2 border-secondary/40 shadow-xl relative overflow-hidden" id="official-resources">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+<div class="space-y-2 max-w-3xl">
+<div class="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-secondary-container text-on-secondary font-label-sm text-label-sm uppercase font-bold">
+<span class="material-symbols-outlined text-[16px]">warning</span>
+<span>Important Public Recruitment Notice</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Join Indian Army Exclusively Through Authorized Channels</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Recruitment in the Indian Army is 100% merit-based, computerized, transparent, and completely free of charge. Beware of unauthorized agents, job touts, bogus coaching guarantees, or phishing websites. The only legal portal for enlistment application is <strong class="text-primary underline">joinindianarmy.nic.in</strong>.
+            </p>
+</div>
+<div class="flex flex-col sm:flex-row gap-3">
+<a class="px-6 py-3.5 rounded bg-secondary-container text-on-secondary hover:bg-secondary hover:text-on-secondary-fixed transition-colors font-label-md text-label-md uppercase tracking-wider font-bold flex items-center justify-center gap-2 shadow-md" href="https://joinindianarmy.nic.in" rel="noreferrer" target="_blank">
+<span>Go To Official Portal</span>
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 12: NEWS, EVENTS & CEREMONIAL TRADITIONS (#news) -->
+<section class="w-full py-16 lg:py-24 bg-surface border-t border-outline-variant/20" id="news">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<div class="flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Public Dispatches &amp; Tradition</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">News, Events &amp; Traditions</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+            Ceremonial milestones, international joint exercises, and historic commemoration days.
+          </p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Event 1: Army Day -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-3">
+<div class="flex items-center justify-between text-xs">
+<span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-semibold uppercase">Annual Tradition</span>
+<span class="text-on-surface-variant">15 January</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Army Day Commemoration</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Commemorates the historic day in 1949 when Field Marshal K. M. Cariappa took over as the first Indian Commander-in-Chief of the Indian Army from General Sir Francis Roy Bucher. Celebrated with majestic parades and investiture ceremonies.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-outline-variant/20 flex items-center justify-between text-xs text-on-surface-variant">
+<span>Parade venues rotated nationwide</span>
+<span class="text-primary font-semibold">Parade &amp; Gallantry</span>
+</div>
+</div>
+<!-- Event 2: Joint Exercises -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-3">
+<div class="flex items-center justify-between text-xs">
+<span class="px-2 py-0.5 rounded bg-secondary/20 text-secondary font-semibold uppercase">Global Diplomacy</span>
+<span class="text-on-surface-variant">Joint Operations</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">International Bilateral Exercises</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Regular bilateral maneuvers including 'Yudh Abhyas' (USA), 'Mitra Shakti' (Sri Lanka), 'Nomadic Elephant' (Mongolia), and 'Dharma Guardian' (Japan) honing interoperability in counter-terrorism and mountain warfare.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-outline-variant/20 flex items-center justify-between text-xs text-on-surface-variant">
+<span>Interoperability Focus</span>
+<span class="text-secondary font-semibold">Global Defense</span>
+</div>
+</div>
+<!-- Event 3: Republic Day Precision -->
+<div class="p-6 rounded-xl bg-surface-container border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-3">
+<div class="flex items-center justify-between text-xs">
+<span class="px-2 py-0.5 rounded bg-tertiary/20 text-tertiary font-semibold uppercase">National Showcase</span>
+<span class="text-on-surface-variant">26 January</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Kartavya Path Republic Day Parade</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Showcasing Indian Army marching contingents, camel-mounted regiments, indigenous military hardware, the Daredevils motorcycle display team, and saluting the Supreme Commander, the President of India.
+            </p>
+</div>
+<div class="pt-4 mt-4 border-t border-outline-variant/20 flex items-center justify-between text-xs text-on-surface-variant">
+<span>Kartavya Path, New Delhi</span>
+<span class="text-tertiary font-semibold">National Pride</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 13: MEDIA & CEREMONIAL GALLERY (#gallery) -->
+<section class="w-full py-16 lg:py-24 bg-surface-container-lowest border-t border-outline-variant/20" id="gallery">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
+<div>
+<div class="flex items-center gap-3 mb-3">
+<span class="w-8 h-[2px] bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Visual Archives</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Ceremonial &amp; Field Gallery</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Educational glimpses into daily vigils, drills, armored power, and rescue ops.</p>
+</div>
+<!-- Gallery Filter Tabs -->
+<div class="flex flex-wrap gap-2" id="gallery-filters">
+<button class="gallery-btn active px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider bg-primary-container text-on-primary" onclick="filterGallery('all')">All</button>
+<button class="gallery-btn px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterGallery('ceremonies')">Ceremonies</button>
+<button class="gallery-btn px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterGallery('training')">Training</button>
+<button class="gallery-btn px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterGallery('heritage')">Heritage</button>
+<button class="gallery-btn px-3 py-1.5 rounded text-xs font-semibold uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface" onclick="filterGallery('hadr')">HADR</button>
+</div>
+</div>
+<!-- Gallery Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery-grid">
+<!-- Photo 1: Ceremonies -->
+<div class="gallery-card group relative rounded-xl overflow-hidden bg-surface-container border border-outline-variant/30 h-64" data-cat="ceremonies">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Indian Army ceremonial guard of honour standing at attention during twilight retreat with scarlet and gold turbans, brass bugles, and regimental flags billowing against a stone colonial pavilion." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV6A4JDW6MRXDUDC4lOehseUjp9tAAodcYGB2u6onmi6f5_-3PQMlsShaST2oicnyW3UHNT7Eic3NPPyfCuCE9xJhsE2da0u6hdsq11TuYCGXZM5SAX-toy4Z0ZeGNRvnDW5s30r5wfhhWPd3cQ6rdtLSu67IIb0ono2w3i2Ot4UzkuYOnE02eUB_edabi3h03b63X9ti_EiAEbLzUve3TaybLRgANstd046pPmA7FJXshR4peI4-jaw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-black/20 to-transparent"></div>
+<div class="absolute bottom-3 left-4 right-4">
+<span class="text-xs text-secondary font-semibold uppercase">Ceremonial</span>
+<h4 class="font-title-sm text-title-sm text-on-surface">Guard of Honour &amp; Beating Retreat</h4>
+</div>
+</div>
+<!-- Photo 2: Training -->
+<div class="gallery-card group relative rounded-xl overflow-hidden bg-surface-container border border-outline-variant/30 h-64" data-cat="training">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Gentleman cadets in olive combat gear navigating high-rope water crossings during rigorous military endurance trials at Indian Military Academy, Dehradun, surrounded by lush sal forests." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeeG7cyfg9OTlU42RIxyQoGyS9SUPPdtYPXnE0mxSPxZkI1VIQZwYL-4ypsgxje9FOlV93NJlCmjYXxkfeo2zaP-HzmUicN9-xedwBz__9h1N_tWu5D9C5BtxuT1ZJj67GiA0cJ9PP_khl8Ada71uCn1vURlgq-GPL2vRzn42emkY5b2yrIXCjWFd15UMrQ8pU_710eejdcSy0vnpTT5cc2jPtbct1MTSBm7XsHkIUXqGPlzfCA_9HHw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-black/20 to-transparent"></div>
+<div class="absolute bottom-3 left-4 right-4">
+<span class="text-xs text-primary font-semibold uppercase">Training</span>
+<h4 class="font-title-sm text-title-sm text-on-surface">Endurance Obstacle Trials</h4>
+</div>
+</div>
+<!-- Photo 3: Armoured Heritage -->
+<div class="gallery-card group relative rounded-xl overflow-hidden bg-surface-container border border-outline-variant/30 h-64" data-cat="heritage">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="T-90 Bhishma and Arjun main battle tanks maneuvering across the golden sand dunes of the Thar desert in Rajasthan during sunset, throwing up dust plumes under dramatic amber sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkDAnycwB9qcWZGlwGvUU7_Y6sWi5nsR64tRHtbFekCVwT_RHt5irTiJvL2H0qGaNS7qr3BSjb4gv7MQZphPc48pbLd8iFHtstTKk4T2k589AA3eaiGXWra4WfjKA6WSdMPtH_cERd3YKIdL8IRHlRsg9hJD5j-wnVMPQHUCKkXvXK6fFwcNgje3wWJYd-47FhoZaruMaGxejO9wQpZLoDumEoaKhaudC3UCBsNZOWUatRLOsDXcjERg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-black/20 to-transparent"></div>
+<div class="absolute bottom-3 left-4 right-4">
+<span class="text-xs text-tertiary font-semibold uppercase">Armoured Corps</span>
+<h4 class="font-title-sm text-title-sm text-on-surface">Thar Desert Mechanized Exercises</h4>
+</div>
+</div>
+<!-- Photo 4: HADR -->
+<div class="gallery-card group relative rounded-xl overflow-hidden bg-surface-container border border-outline-variant/30 h-64" data-cat="hadr">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Indian Army flood relief personnel maneuvering an orange inflatable zodiac rescue boat in swirling monsoon waters, helping elderly citizens and children onto safety platforms." src="https://lh3.googleusercontent.com/aida-public/AB6AXuANCGgEqV8jIe0i2rNKoZa8U_A2rmISRRGRaPgkAAcMy3Tx3JdclCwCE1abJ_d3CkkejJA1h5bNNaf72RQ5zSPMxPgPDVOKgC_W2KQkQ0-zgjtyRdqY65ZJEOUTJxlB68sLKP9L98NaEmL_0WiZlavsL-eQi3CCPQymZC1JmstKIhFflu7rYIBAMyktQ0OyrfXiiRL67kaXHkXIvff-yAdVSEay3u_kILKzbToGGNjU1jF6V03qHDx8Mw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-black/20 to-transparent"></div>
+<div class="absolute bottom-3 left-4 right-4">
+<span class="text-xs text-primary-fixed font-semibold uppercase">HADR</span>
+<h4 class="font-title-sm text-title-sm text-on-surface">Monsoon Flood Rescue Missions</h4>
+</div>
+</div>
+<!-- Photo 5: High Altitude Heritage -->
+<div class="gallery-card group relative rounded-xl overflow-hidden bg-surface-container border border-outline-variant/30 h-64" data-cat="heritage">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Mountain infantry soldiers walking in single file across a snow-covered ridge in Eastern Ladakh with towering jagged peaks under crisp midday sunlight, carrying modern patrol communication arrays." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_OOq7TnFMh1NQP5TmAMfFWvUlX2yaTdY_wjCg99lmyPLAQt3EDFmBujNtvVyCqmIGXsTDg3akg4LdhYPSMUv5l4pEP4SeL2eu80_lb6RB0h2wZvE1wArGIMkUREerkYTC3ZpWGiJWIBcST3ztBuD4YY-IAis0RoyNgsQrTHDeaAnvVneBe6ca-ESPvm-eUWMKAqXi1Nr7SiIHWf6gtFKFM93Eb1l-HLtN9n6NpahNVdmzxhMjQzBjyw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-black/20 to-transparent"></div>
+<div class="absolute bottom-3 left-4 right-4">
+<span class="text-xs text-secondary font-semibold uppercase">Northern Watch</span>
+<h4 class="font-title-sm text-title-sm text-on-surface">Ladakh Border Patrol Vigil</h4>
+</div>
+</div>
+<!-- Photo 6: Ceremonies -->
+<div class="gallery-card group relative rounded-xl overflow-hidden bg-surface-container border border-outline-variant/30 h-64" data-cat="ceremonies">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Indian Army pipe and drum military band in traditional Scottish tartans combined with Indian regimental accoutrements performing in front of India Gate illuminated in saffron, white, and green lights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiiUkQHAo4sV8Ox5L-mpV_Ji99MBbVKzO4Iqw6dmkQcIPEPqk6sfMpJrxVECQGQjvDA4y0YvPtkSA5p1nMfWppoqn7Mhjx8Q0ZCA-gqMKctSJn0xY7R2L1hHJeTYHhdfBbzK3iRyGG_4Xukgg-g4RGSmon-75_AIZQbGuLNv40KPz37orN4Og3aOmsDRWdMFJuyIPEhpz0IAjrQFkV88mvzwI8hHUXqXHVyVtwWQkGY0i2qwl3erFZwg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-black/20 to-transparent"></div>
+<div class="absolute bottom-3 left-4 right-4">
+<span class="text-xs text-tertiary font-semibold uppercase">Tradition</span>
+<h4 class="font-title-sm text-title-sm text-on-surface">Massed Military Pipes &amp; Drums</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 14: FREQUENTLY ASKED QUESTIONS (#faq) -->
+<section class="w-full py-16 lg:py-24 bg-surface border-t border-outline-variant/20" id="faq">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Public Enlightenment</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Frequently Asked Questions</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Answers to common public and civic inquiries regarding the institutional role of the Indian Army.
+        </p>
+</div>
+<div class="max-w-3xl mx-auto space-y-4" id="faq-accordion">
+<!-- Question 1 -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/30 overflow-hidden">
+<button class="w-full p-5 text-left flex items-center justify-between gap-4 hover:bg-surface-container-high transition-colors" onclick="toggleFaq(1)">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold">1. What is the primary constitutional role of the Indian Army?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300" id="faq-icon-1">expand_more</span>
+</button>
+<div class="hidden px-5 pb-5 pt-1 text-on-surface-variant text-sm leading-relaxed border-t border-outline-variant/20" id="faq-answer-1">
+            The primary constitutional role of the Indian Army is to safeguard national security and defend the sovereignty, territorial integrity, and unity of India against external aggression and internal threats. Secondarily, the Army assists civil authorities during natural catastrophes (HADR) and maintains vital essential services when formally requisitioned.
+          </div>
+</div>
+<!-- Question 2 -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/30 overflow-hidden">
+<button class="w-full p-5 text-left flex items-center justify-between gap-4 hover:bg-surface-container-high transition-colors" onclick="toggleFaq(2)">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold">2. Where can official, authorized recruitment circulars be verified?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300" id="faq-icon-2">expand_more</span>
+</button>
+<div class="hidden px-5 pb-5 pt-1 text-on-surface-variant text-sm leading-relaxed border-t border-outline-variant/20" id="faq-answer-2">
+            All authentic recruitment notices, Agniveer rally schedules, and officer entry notifications are published exclusively on the official recruitment website: <strong class="text-primary">joinindianarmy.nic.in</strong> and in the weekly print editions of the Employment News / Rozgar Samachar. No other third-party websites or agents are authorized.
+          </div>
+</div>
+<!-- Question 3 -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/30 overflow-hidden">
+<button class="w-full p-5 text-left flex items-center justify-between gap-4 hover:bg-surface-container-high transition-colors" onclick="toggleFaq(3)">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold">3. How are Gallantry Awards categorized between wartime and peacetime?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300" id="faq-icon-3">expand_more</span>
+</button>
+<div class="hidden px-5 pb-5 pt-1 text-on-surface-variant text-sm leading-relaxed border-t border-outline-variant/20" id="faq-answer-3">
+            Wartime gallantry awards (Param Vir Chakra, Maha Vir Chakra, Vir Chakra) are conferred specifically for conspicuous valor in the face of the enemy. Peacetime awards (Ashoka Chakra, Kirti Chakra, Shaurya Chakra) recognize acts of courage displayed in counter-terrorist operations, internal security, or saving lives without direct war declared with an external nation.
+          </div>
+</div>
+<!-- Question 4 -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/30 overflow-hidden">
+<button class="w-full p-5 text-left flex items-center justify-between gap-4 hover:bg-surface-container-high transition-colors" onclick="toggleFaq(4)">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold">4. What is the significance of the 15th January Army Day?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300" id="faq-icon-4">expand_more</span>
+</button>
+<div class="hidden px-5 pb-5 pt-1 text-on-surface-variant text-sm leading-relaxed border-t border-outline-variant/20" id="faq-answer-4">
+            Army Day marks the date in 1949 when Field Marshal Kodandera M. Cariappa (then Lieutenant General) took over command of the Indian Army from General Sir Francis Roy Bucher, becoming the first Indian Commander-in-Chief. It symbolizes the transition to an independent sovereign military establishment.
+          </div>
+</div>
+<!-- Question 5 -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/30 overflow-hidden">
+<button class="w-full p-5 text-left flex items-center justify-between gap-4 hover:bg-surface-container-high transition-colors" onclick="toggleFaq(5)">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold">5. Can civilians visit military memorials and museums?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300" id="faq-icon-5">expand_more</span>
+</button>
+<div class="hidden px-5 pb-5 pt-1 text-on-surface-variant text-sm leading-relaxed border-t border-outline-variant/20" id="faq-answer-5">
+            Yes. The National War Memorial in New Delhi is freely open to all citizens every day, featuring the Amar Chakra, Veerta Chakra, Tyag Chakra, and Raksha Chakra. In addition, regimental museums (such as the Rajputana Rifles Museum in Delhi Cantt or Armoured Corps Museum in Ahmednagar) allow citizen visits subject to local visitor rules.
+          </div>
+</div>
+<!-- Question 6 -->
+<div class="rounded-xl bg-surface-container border border-outline-variant/30 overflow-hidden">
+<button class="w-full p-5 text-left flex items-center justify-between gap-4 hover:bg-surface-container-high transition-colors" onclick="toggleFaq(6)">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold">6. How does India contribute to UN Peacekeeping operations?</span>
+<span class="material-symbols-outlined text-secondary transition-transform duration-300" id="faq-icon-6">expand_more</span>
+</button>
+<div class="hidden px-5 pb-5 pt-1 text-on-surface-variant text-sm leading-relaxed border-t border-outline-variant/20" id="faq-answer-6">
+            India is historically among the world's highest troop contributors to the United Nations. More than 260,000 Indian military personnel have participated in over 50 missions across Africa, the Middle East, and Asia, providing infantry contingents, medical units, engineers, and female engagement teams to protect vulnerable civilians under UN charters.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 15: CONTACT & ADMINISTRATOR FEEDBACK (#contact) -->
+<section class="w-full py-16 lg:py-24 bg-surface-container-lowest border-t border-outline-variant/20" id="contact">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+<!-- Notice & Instructions -->
+<div class="lg:col-span-5 space-y-6">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[2px] bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Portal Feedback</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Educational Site Administrator Desk</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Have questions or corrections regarding the historical data, educational exhibits, or archival references presented on this demo portal? Send feedback to the educational webmaster team.
+          </p>
+<div class="p-4 rounded-lg bg-surface-container border border-error/30 text-on-surface-variant space-y-2">
+<div class="flex items-center gap-2 text-error font-semibold text-sm">
+<span class="material-symbols-outlined text-[18px]">gavel</span>
+<span>Not For Official Inquiries or Grievances</span>
+</div>
+<p class="font-body-sm text-body-sm">
+              This form does <strong class="text-on-surface">NOT</strong> reach the Ministry of Defence, Army Headquarters, or Recruitment Directorates. For recruitment grievances, pension queries, or sovereign communications, visit <strong class="text-primary underline"><a href="https://joinindianarmy.nic.in" rel="noreferrer" target="_blank">joinindianarmy.nic.in</a></strong> or <strong class="text-primary underline"><a href="https://mod.gov.in" rel="noreferrer" target="_blank">mod.gov.in</a></strong>.
+            </p>
+</div>
+<div class="space-y-3 pt-2">
+<div class="flex items-center gap-3 text-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px]">location_on</span>
+<span>Informational &amp; Civic Heritage Initiative • New Delhi, Bharat</span>
+</div>
+<div class="flex items-center gap-3 text-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[20px]">menu_book</span>
+<span>Open Source Educational Military History Compendium</span>
+</div>
+</div>
+</div>
+<!-- Interactive Contact Form -->
+<div class="lg:col-span-7">
+<div class="p-6 sm:p-8 rounded-xl bg-surface-container border border-outline-variant/30 shadow-lg">
+<form class="space-y-4" onsubmit="handleContactSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface mb-1.5 uppercase font-semibold">Your Full Name</label>
+<input class="w-full px-4 py-2.5 rounded bg-surface-container-high border border-outline-variant/40 text-on-surface placeholder:text-on-surface-variant/40 focus:outline-none focus:border-secondary text-sm" placeholder="e.g. Captain Ananya Sharma / Cadet Rohan" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface mb-1.5 uppercase font-semibold">Your Email Address</label>
+<input class="w-full px-4 py-2.5 rounded bg-surface-container-high border border-outline-variant/40 text-on-surface placeholder:text-on-surface-variant/40 focus:outline-none focus:border-secondary text-sm" placeholder="name@domain.com" required="" type="email"/>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface mb-1.5 uppercase font-semibold">Inquiry Subject</label>
+<select class="w-full px-4 py-2.5 rounded bg-surface-container-high border border-outline-variant/40 text-on-surface focus:outline-none focus:border-secondary text-sm">
+<option>Historical Timeline Feedback / Archival Citation</option>
+<option>Educational Material &amp; School Outreach Reference</option>
+<option>Accessibility &amp; Technical Bug Report</option>
+<option>General Civics Feedback</option>
+</select>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-on-surface mb-1.5 uppercase font-semibold">Message &amp; Remarks</label>
+<textarea class="w-full px-4 py-2.5 rounded bg-surface-container-high border border-outline-variant/40 text-on-surface placeholder:text-on-surface-variant/40 focus:outline-none focus:border-secondary text-sm resize-none" placeholder="Type your constructive feedback regarding this educational site..." required="" rows="4"></textarea>
+</div>
+<!-- Anti-Spam Captcha simulation -->
+<div class="p-3 rounded bg-surface-container-high border border-outline-variant/30 flex items-center justify-between gap-4">
+<div class="flex items-center gap-2">
+<input class="w-4 h-4 rounded text-secondary focus:ring-0 cursor-pointer" id="captcha-check" required="" type="checkbox"/>
+<label class="text-xs text-on-surface-variant cursor-pointer" for="captcha-check">I understand this is a civic educational demo portal, not an official recruitment submission.</label>
+</div>
+</div>
+<button class="w-full py-3.5 rounded bg-primary-container text-on-primary hover:bg-secondary-container hover:text-on-secondary transition-colors font-label-md text-label-md uppercase tracking-wider font-semibold flex items-center justify-center gap-2 shadow-md" type="submit">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Transmit Educational Feedback</span>
+</button>
+</form>
+<div class="hidden mt-4 p-3 rounded bg-primary/20 border border-primary text-primary text-sm text-center" id="contact-success">
+              ✓ Message dispatched to educational webmaster queue. Jai Hind!
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 16: PROMINENT COMPLIANCE & LEGAL DISCLAIMER BANNER -->
+<section class="w-full py-8 bg-surface-container-high border-t-2 border-secondary/40">
+<div class="max-w-[1200px] mx-auto px-4 md:px-margin">
+<div class="flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[32px]">shield_person</span>
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface font-bold uppercase tracking-wider">Independent Civic &amp; Educational Heritage Project</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-2xl">
+              This digital project is designed strictly for public education and historical reverence. It is not affiliated with, managed by, or commissioned by the Indian Army or the Ministry of Defence. For statutory government actions, visit official portals.
+            </p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<a class="px-4 py-2 rounded bg-surface-container-lowest text-primary hover:text-on-surface font-label-sm text-label-sm uppercase tracking-wider border border-outline-variant/30 transition-colors" href="https://indianarmy.nic.in" rel="noreferrer" target="_blank">
+            indianarmy.nic.in ↗
+          </a>
+<a class="px-4 py-2 rounded bg-secondary-container text-on-secondary hover:bg-secondary hover:text-on-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider font-bold transition-colors" href="https://joinindianarmy.nic.in" rel="noreferrer" target="_blank">
+            joinindianarmy.nic.in ↗
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- CLIENT-SIDE SCRIPT FOR INTERACTIVE BEHAVIORS -->
+<script>
+    // FAQ Accordion Handler
+    function toggleFaq(id) {
+      const answer = document.getElementById('faq-answer-' + id);
+      const icon = document.getElementById('faq-icon-' + id);
+      if (!answer) return;
+
+      const isHidden = answer.classList.contains('hidden');
+      // Collapse all answers
+      for (let i = 1; i <= 6; i++) {
+        const a = document.getElementById('faq-answer-' + i);
+        const ic = document.getElementById('faq-icon-' + i);
+        if (a) a.classList.add('hidden');
+        if (ic) ic.style.transform = 'rotate(0deg)';
+      }
+
+      if (isHidden) {
+        answer.classList.remove('hidden');
+        if (icon) icon.style.transform = 'rotate(180deg)';
+      }
+    }
+
+    // Timeline Filter Handler
+    function filterTimeline(era) {
+      const items = document.querySelectorAll('.timeline-item');
+      const buttons = document.querySelectorAll('.timeline-btn');
+
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-primary-container', 'text-on-primary');
+        btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+      });
+      event.currentTarget.classList.add('bg-primary-container', 'text-on-primary');
+      event.currentTarget.classList.remove('bg-surface-container', 'text-on-surface-variant');
+
+      items.forEach(item => {
+        if (era === 'all' || item.getAttribute('data-era') === era) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    // Gallery Filter Handler
+    function filterGallery(category) {
+      const cards = document.querySelectorAll('.gallery-card');
+      const buttons = document.querySelectorAll('.gallery-btn');
+
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-primary-container', 'text-on-primary');
+        btn.classList.add('bg-surface-container', 'text-on-surface-variant');
+      });
+      event.currentTarget.classList.add('bg-primary-container', 'text-on-primary');
+      event.currentTarget.classList.remove('bg-surface-container', 'text-on-surface-variant');
+
+      cards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-cat') === category) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Gallantry Award Interactive Modal Content
+    const awardDetails = {
+      pvc: {
+        title: 'Param Vir Chakra (PVC)',
+        icon: 'military_tech',
+        desc: 'The Param Vir Chakra is India\'s highest military decoration, awarded for displaying distinguished acts of valor during wartime in the presence of the enemy.',
+        criteria: 'Instituted on 26 January 1950 (with retrospective effect from 15 August 1947). Features four replicas of Indra\'s Vajra embossed in bronze around the State Emblem. Conferred 21 times to heroes including Major Somnath Sharma, Captain Vikram Batra, and Subedar Major Yogender Singh Yadav.'
+      },
+      mvc: {
+        title: 'Maha Vir Chakra (MVC)',
+        icon: 'military_tech',
+        desc: 'The Maha Vir Chakra is the second highest wartime military decoration in India and is awarded for acts of conspicuous gallantry in the presence of the enemy.',
+        criteria: 'Standard circular silver medal with a five-pointed star and embossed gold state emblem in the center. Notable recipients include Col. B. Santosh Babu (Galwan, 2020) and Lt. Col. Dewan Ranjit Rai.'
+      },
+      vrc: {
+        title: 'Vir Chakra (VrC)',
+        icon: 'military_tech',
+        desc: 'The Vir Chakra is third in precedence in wartime gallantry decorations, conferred for notable courage in frontline active combat.',
+        criteria: 'Circular silver medal with a blue and saffron ribbon. Conferred upon hundreds of brave personnel across 1947–48, 1965, 1971, 1999 Kargil and aerial/coastal operations.'
+      },
+      ac: {
+        title: 'Ashoka Chakra (AC)',
+        icon: 'workspace_premium',
+        desc: 'The Ashoka Chakra is India\'s highest peacetime military decoration awarded for the most conspicuous bravery, daring, or self-sacrifice away from the battlefield.',
+        criteria: 'Conferred to military personnel and civilians alike. Features Ashoka\'s Chakra surrounded by a lotus wreath. Recipients include Major Sandeep Unnikrishnan, AC (26/11 Mumbai) and Havildar Hangpan Dada.'
+      },
+      kc: {
+        title: 'Kirti Chakra (KC)',
+        icon: 'workspace_premium',
+        desc: 'The Kirti Chakra is the peacetime equivalent of the Maha Vir Chakra, awarded for conspicuous courage in counter-insurgent and perilous security operations.',
+        criteria: 'Circular silver medal with Ashoka\'s Chakra embossed and suspended with a green ribbon with two orange stripes.'
+      },
+      sc: {
+        title: 'Shaurya Chakra (SC)',
+        icon: 'workspace_premium',
+        desc: 'The Shaurya Chakra is awarded for gallantry otherwise than in the face of the enemy, recognizing daring counter-terrorist interventions and hazardous rescues.',
+        criteria: 'Bronze medal instituted in 1952. Conferred annually on Republic Day and Independence Day investiture lists.'
+      }
+    };
+
+    function openAwardModal(type) {
+      const modal = document.getElementById('award-modal');
+      const data = awardDetails[type];
+      if (!data || !modal) return;
+
+      document.getElementById('modal-title').innerText = data.title;
+      document.getElementById('modal-icon').innerText = data.icon;
+      document.getElementById('modal-desc').innerText = data.desc;
+      document.getElementById('modal-criteria').innerText = data.criteria;
+
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeAwardModal() {
+      const modal = document.getElementById('award-modal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+
+    // Contact Form Handler
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const successMsg = document.getElementById('contact-success');
+      if (successMsg) {
+        successMsg.classList.remove('hidden');
+        e.target.reset();
+        setTimeout(() => {
+          successMsg.classList.add('hidden');
+        }, 5000);
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30 pt-space-xl pb-margin text-on-surface-variant"><div class="max-w-[1200px] mx-auto px-4 md:px-margin"><div class="p-space-lg rounded bg-surface-container-low border border-outline-variant/20 mb-space-xl"><div class="flex items-start gap-space-md"><span class="material-symbols-outlined text-secondary text-24px">policy</span><div class="space-y-space-xs"><p class="font-label-lg text-label-lg text-secondary uppercase font-semibold">Institutional Disclaimer &amp; Governance Notice</p><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">This website is an informational/demo project and is not affiliated with, operated by, or officially endorsed by the Indian Army or the Government of India. For official information, active recruitments, operational directives, and sovereign tenders, users should refer exclusively to authorized government and Indian Army sources such as joinindianarmy.nic.in and indianarmy.nic.in.</p></div></div></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div class="space-y-space-sm"><div class="flex items-center gap-2 mb-space-xs"><img alt="Indian Army Crest" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XJzpE46CGB1urzFdnaIZhLrI7ToogZhtqWvbeFLcYOaW-qtuM363TndEi8OUDewKmVKeoyNvg3Ny6B3D0-A0XW9Z5WTXhRuFybfQ_WfT1wR11l2BGd_--aT4qEQeEpjZWe2ebGDR2Wm-ym7x1rBX-l6_IVZyIW1s6dKdUmJQMhnAaedHETy-TWtMUS8nejxWkeedlBiupxPlQc8zS9piANz6o6G84x-P7U29unpEIc4QqJR2uvmzhKFnpB"/><span class="font-headline-sm text-headline-sm text-primary uppercase">BHARATIYA SENA</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Guarding the sovereignty, territorial integrity, and constitutional values of India across all terrains and international boundaries.</p><p class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">Service Before Self • Seva Paramo Dharma</p></div><div class="space-y-space-xs"><h4 class="font-title-sm text-title-sm text-on-surface font-semibold mb-space-sm uppercase tracking-wider border-b border-outline-variant/30 pb-1">Official Portals</h4><ul class="space-y-2 font-body-sm text-body-sm"><li class="hover:text-primary transition-colors"><a class="hover:underline" href="https://indianarmy.nic.in" rel="noreferrer" target="_blank">Indian Army Official Web Portal</a></li><li class="hover:text-primary transition-colors"><a class="hover:underline" href="https://joinindianarmy.nic.in" rel="noreferrer" target="_blank">Join Indian Army Recruitment</a></li><li class="hover:text-primary transition-colors"><a class="hover:underline" href="https://mod.gov.in" rel="noreferrer" target="_blank">Ministry of Defence (MoD)</a></li><li class="hover:text-primary transition-colors"><a class="hover:underline" href="https://nationalwarmemorial.gov.in" rel="noreferrer" target="_blank">National War Memorial Portal</a></li><li class="hover:text-primary transition-colors"><a class="hover:underline" href="https://gallantryawards.gov.in" rel="noreferrer" target="_blank">Gallantry Awards Repository</a></li></ul></div><div class="space-y-space-xs"><h4 class="font-title-sm text-title-sm text-on-surface font-semibold mb-space-sm uppercase tracking-wider border-b border-outline-variant/30 pb-1">Quick Links</h4><ul class="space-y-2 font-body-sm text-body-sm"><li class="hover:text-primary transition-colors"><a class="hover:underline" data-path="about" href="#">Vision &amp; Heritage</a></li><li class="hover:text-primary transition-colors"><a class="hover:underline" data-path="commands" href="#">Field Commands &amp; Wings</a></li><li class="hover:text-primary transition-colors"><a class="hover:underline" data-path="training" href="#">Military Academies &amp; Centers</a></li><li class="hover:text-primary transition-colors"><a class="hover:underline" data-path="tech-modernization" href="#">Atmanirbhar Bharat Tech</a></li><li class="hover:text-primary transition-colors"><a class="hover:underline" data-path="humanitarian" href="#">Disaster Relief Operations</a></li></ul></div><div class="space-y-space-xs"><h4 class="font-title-sm text-title-sm text-on-surface font-semibold mb-space-sm uppercase tracking-wider border-b border-outline-variant/30 pb-1">Directory &amp; Helpdesk</h4><ul class="space-y-2 font-body-sm text-body-sm"><li class="text-on-surface-variant"><strong class="text-on-surface">Headquarters:</strong> Integrated Defence HQ, New Delhi</li><li class="text-on-surface-variant"><strong class="text-on-surface">Enlistment Inquiries:</strong> 011-26173215</li><li class="hover:text-primary transition-colors"><a class="hover:underline" data-path="contact" href="#">Public Relations Directorate</a></li><li class="hover:text-primary transition-colors"><a class="hover:underline" data-path="faq" href="#">Veteran Grievance Redressal</a></li><li class="hover:text-primary transition-colors"><a class="hover:underline" data-path="careers" href="#">Officer Selection Process</a></li></ul></div></div><div class="border-t border-outline-variant/30 pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm"><p class="text-center md:text-left">© 2024 Bharatiya Sena Informational Portal (Demo Project). Crafted for Educational &amp; Public Enlightenment Purposes.</p><div class="flex items-center gap-space-md font-label-sm text-label-sm"><a class="hover:text-primary transition-colors" href="#">Terms of Reference</a><span class="text-outline-variant">•</span><a class="hover:text-primary transition-colors" href="#">Privacy Architecture</a><a class="hover:text-primary transition-colors" href="#">Archival Sitemap</a></div></div></div></footer></body></html>
